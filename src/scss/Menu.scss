@@ -29,19 +29,18 @@
       color: black;
       transform: translateX(-30px);
     }
-    &--isActive2 {
-      color: black;
-    }
+
     &--isActive1 {
       display: block;
       transition: 500ms;
-      color: #f2f2f2;
+      color: #000000;
       transform: translateX(-30px);
+      -webkit-text-stroke: 1px #f2f2f2;
     }
   }
   &__mail {
     position: fixed;
-    bottom: 40px;
+    bottom: 45px;
     right: 60px;
   }
   &__scroll {
@@ -57,7 +56,7 @@
     visibility: hidden;
     position: fixed;
 
-    bottom: 8px;
+    bottom: 2px;
     right: 150px;
     &--isActive {
       visibility: visible;
@@ -65,7 +64,7 @@
   }
 }
 @media (max-width: 480px) {
-  .menu{
+  .menu {
     visibility: hidden;
   }
 }
