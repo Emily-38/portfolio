@@ -9,8 +9,8 @@ function Menu({ View }) {
           <a
             class={
               'menu__anchor' +
-              (View === 'Presentation' ? ' menu__anchor--isActive' : '') +
-              (View === 'Contact' ? ' menu__anchor--isActive2' : '')
+              (View === 'Presentation' ? ' menu__anchor--isActive' : '') 
+              
             }
             href="#Presentation"
           >
@@ -21,8 +21,8 @@ function Menu({ View }) {
           <a
             class={
               'menu__anchor' +
-              (View === 'Education' ? ' menu__anchor--isActive' : '') +
-              (View === 'Contact' ? ' menu__anchor--isActive2' : '')
+              (View === 'Education' ? ' menu__anchor--isActive' : '') 
+             
             }
             href="#Education"
           >
@@ -33,8 +33,8 @@ function Menu({ View }) {
           <a
             class={
               'menu__anchor' +
-              (View === 'Experience' ? ' menu__anchor--isActive' : '') +
-              (View === 'Contact' ? ' menu__anchor--isActive2' : '')
+              (View === 'Experience' ? ' menu__anchor--isActive' : '') 
+              
             }
             href="#Experiences"
           >

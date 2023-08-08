@@ -8,7 +8,7 @@ function Home({ isInView }) {
   isInView(inView && 'Home');
   return (
     <div ref={ref} id="Home">
-      <h1  class="name"> 
+      <h1 class="name"> 
       <Typewriter 
       options={{
         autoStart: true, 

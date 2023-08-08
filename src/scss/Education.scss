@@ -29,11 +29,13 @@
 }
 @media (max-width: 480px) {
   .formation{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    &__button{
+      margin-left: 700Px;
+    margin-bottom: 303px;
+    font-size: 230px;
+    }
   }
+  
     
     
   }

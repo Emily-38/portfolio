@@ -21,13 +21,21 @@
 }
 @media (max-width: 480px) {
 .name{
-  text-align: center;
+  margin-top: 200px;
+  text-align: justify;
   font-weight: 800;
-  font-size: 200px;
+  font-size: 150px;
+  margin-left:447px ;
+  margin-bottom: 0;
+  &__lastname{
+    margin-left: -258px;
+  }
   &__text{
     text-align: center;
-    width: 1500px;
-    font-size: 70px;
+    width: 600px;
+    font-size: 80px;
+    margin-left: 363Px;
+    margin-bottom: 415px;
   }
 }
 }
