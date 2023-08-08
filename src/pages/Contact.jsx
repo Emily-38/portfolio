@@ -10,7 +10,7 @@ function Contact({ isInView }) {
       <h1 class="contact__name">Emily Martorana </h1>
       <p class="contact__text">martorana.emily38@gmail.com</p>
       <p class="contact__text">06 45 68 73 43</p>
-      <p class="contact__text">304 boulevard massenet 73000 Chambery</p>
+      <p class="contact__text">304 boulevard Massenet 73000 Chambery</p>
     </div>
   );
 }
