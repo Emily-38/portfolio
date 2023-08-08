@@ -1,0 +1,42 @@
+.formation {
+  margin-top: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  &__button {
+    font-family: 'Open Sans';
+    border: none;
+    font-size: 128px;
+    font-weight: 800;
+    background-color: transparent;
+    cursor: pointer;
+    transition: 300ms;
+    margin-bottom: 70px;
+    &:hover {
+      padding-right: 20px;
+    }
+  }
+
+  &__year {
+    display: flex;
+    align-items: left;
+    color: #000;
+    margin: 0;
+    list-style-type: none;
+  }
+}
+@media (max-width: 480px) {
+  .formation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &__year{
+      align-items: center;
+    }
+  }
+    
+    
+  }
+

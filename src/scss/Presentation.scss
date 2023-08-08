@@ -1,0 +1,27 @@
+.presentation {
+  background-color: #300133;
+  width: 800px;
+  height: 400px;
+  padding: 111px;
+  color: #f2f2f2;
+  margin: 0;
+  font-size: 36px;
+  font-weight: 700;
+
+  &__text {
+    color: transparent;
+    -webkit-text-stroke: 1px white;
+  }
+}
+@media (max-width: 480px) {
+  .presentation{
+  
+    width: 1300px;
+    height: 1300px;
+    font-size: 90px;
+    &__text{
+      padding: 5px;
+      margin: 0;
+    }
+  }
+}

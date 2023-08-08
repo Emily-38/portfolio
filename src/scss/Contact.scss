@@ -1,0 +1,23 @@
+.contact {
+  background-color: #300133;
+  width: 1000px;
+  margin-top: 260px;
+  padding-top: 44px;
+  padding-left: 64px;
+  padding-bottom: 64px;
+  color: #f2f2f2;
+  margin-left: 400px;
+
+  &__name {
+    width: 453px;
+    font-weight: 800;
+    font-size: 64px;
+    margin-top: 15px;
+  }
+  &__text {
+    margin-top: 0;
+    margin-bottom: 8px;
+    font-size: 32px;
+    font-weight: 500;
+  }
+}
