@@ -18,18 +18,16 @@ function Formations({ isInView }) {
   isInView(inView && 'Education');
 
   return (
-    <>
-      <ul ref={ref} id="Education" class="formation">
-        {formationslist.map((formation, index) => (
-          <li key={formation.id} class="formation__year">
-            <button class="formation__button " type="button" onClick={() => indexOnClique(index)}>
-              {formation.annee}
-            </button>
-            <Formation show={indexClicked === index} formation={formation} />
-          </li>
-        ))}
-      </ul>
-    </>
+    <ul ref={ref} id="Education" class="formation">
+      {formationslist.map((formation, index) => (
+        <li key={formation.id} class="formation__year">
+          <button class="formation__button " type="button" onClick={() => indexOnClique(index)}>
+            {formation.annee}
+          </button>
+          <Formation show={indexClicked === index} formation={formation} />
+        </li>
+      ))}
+    </ul>
   );
 }
 export default Formations;

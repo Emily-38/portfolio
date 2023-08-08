@@ -8,7 +8,7 @@
   &__button {
     font-family: 'Open Sans';
     border: none;
-    font-size: 128px;
+    font-size: 160px;
     font-weight: 800;
     background-color: transparent;
     cursor: pointer;
@@ -32,9 +32,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    &__year{
-      align-items: center;
-    }
+    flex-direction: column;
   }
     
     
