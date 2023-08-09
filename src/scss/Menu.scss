@@ -36,16 +36,14 @@
       -webkit-text-stroke: 1px #f2f2f2;
     }
   }
-  &__mail {
-    position: fixed;
-    bottom: 45px;
-    right: 60px;
-  }
+ 
   &__scroll {
+    visibility: visible;
     position: fixed;
-    bottom: 8px;
-    right: 95px;
-    width: 200px;
+    
+    animation: jump .7s linear alternate infinite;
+    bottom: 5px;
+    right: 120px;
     &--isActive {
       visibility: hidden;
     }
@@ -54,8 +52,8 @@
     visibility: hidden;
     position: fixed;
 
-    bottom: 2px;
-    right: 150px;
+    bottom: 5px;
+    right: 120px;
     &--isActive {
       visibility: visible;
     }
@@ -86,4 +84,10 @@
     }
   }
 }
+}
+@keyframes jump {
+  0%   {transform: translate3d(0,0,0) ;}
+  40%  {transform: translate3d(0,30%,0) ;}
+  100% {transform: translate3d(0,50%,0) ;}
+
 }

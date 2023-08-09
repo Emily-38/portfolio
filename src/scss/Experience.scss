@@ -58,18 +58,30 @@
     }
     &--1 {
       grid-area: a;
+      border-radius: 5px;
       color: white;
-      background-color: #086c30;
+      background-position: center;
+      background-size: cover;
+      background-image: url("../image/Mcdonalds_France_2009_logo.svg.png");
     }
     &--2 {
+      
       grid-area: b;
-      color: white;
-      background-color: #234ad4;
+      color: rgba(255, 255, 255, 0);
+      border-radius: 5px;
+      
+      background-position: center;
+      
+      background-size: cover;
+      background-image: url("../image/opinel_logobleu.jpeg");
     }
     &--3 {
       grid-area: c;
-     
-      background-color: #ffffff;
+      border-radius: 5px;
+      background-image: url("../image/cropped-cropped-AU-JARDIN-LOGO.jpeg");
+      background-position: center;
+      background-size: cover;
+      color:white;
     }
     &__content {
       transition: opacity 300ms ease-in-out 0ms;
