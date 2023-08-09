@@ -16,7 +16,6 @@ function App() {
       setView(currentView);
     }
   }
-  console.log(View);
 
   return (
     <>
@@ -27,7 +26,7 @@ function App() {
         <Education isInView={selectCurrentView} />
         <Experiences isInView={selectCurrentView} />
         <Contact isInView={selectCurrentView} />
-        <Footer/>
+        <Footer />
       </div>
     </>
   );
