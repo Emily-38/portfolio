@@ -22,7 +22,7 @@ function Formations({ isInView }) {
       {formationslist.map((formation, index) => (
         <li key={formation.id} class="formation__year">
           <button class="formation__button " type="button" onClick={() => indexOnClique(index)}>
-            {formation.annee}
+            {formation.year}
           </button>
           <Formation show={indexClicked === index} formation={formation} />
         </li>

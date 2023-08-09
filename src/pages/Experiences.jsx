@@ -13,7 +13,7 @@ function Experiences({ isInView }) {
         {Experienceslist.map((experience) => (
           <li key={experience.id} class={'experience__elem experience__elem--' + experience.id}>
             <div class="experience__elem__summary">
-              <h2 class="experience__title">{experience.enseigne}</h2>
+              <h2 class="experience__title">{experience.company}</h2>
             </div>
 
             <div class="experience__elem__content">
@@ -34,7 +34,7 @@ function Experiences({ isInView }) {
                   />
                   <path fill="currentColor" class="cls-1" d="M15 18h2a1 1 0 0 0 0-2h-2a1 1 0 0 0 0 2Z" />
                 </svg>
-                {experience.intituler}
+                {experience.title}
               </h3>
               <h3>
                 <svg height="20" width="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
@@ -47,13 +47,13 @@ function Experiences({ isInView }) {
                     d="M339.486 189.212c0 46.031-37.445 83.476-83.476 83.476V512c5.554 0 10.738-2.76 13.847-7.369l137.496-201.855c28.576-37.945 41.672-85.226 36.88-133.117C434.592 72.933 353.67 0 256.01 0v105.736c46.031 0 83.476 37.446 83.476 83.476z"
                   />
                 </svg>
-                {experience.lieu}
+                {experience.place}
               </h3>
               <p>{experience.role}</p>
               <p>Competences acquise : </p>
               <ul>
-                <li>{experience.competenceun}</li>
-                <li>{experience.competencedeux}</li>
+                <li>{experience.skillone}</li>
+                <li>{experience.skilltwo}</li>
               </ul>
             </div>
           </li>
