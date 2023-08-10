@@ -7,7 +7,8 @@ function Footer(){
     return(
     <div className="footer">
         <p> <a href=""> Télécharger le CV </a> </p>
-        <p> Crée par Martorana Emily </p>
+        <hr />
+        <i> Crée par Martorana Emily </i>
     </div>
 )}
 export default Footer

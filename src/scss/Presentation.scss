@@ -13,16 +13,18 @@
     -webkit-text-stroke: 1px white;
   }
 }
-@media (max-width: 480px) {
-  .presentation{
+@media (max-device-width: 480px) {
+  .presentation {
     padding: 21px;
-    width: 1250px;
+    width: 1400px;
     height: 1500px;
-    font-size: 90px;
+    
     margin: 3px;
     margin-bottom: 300px;
-    
-    &__text{
+    p{font-size: 90px;
+
+    }
+    &__text {
       padding: 5px;
       margin: 1px;
     }

@@ -30,5 +30,15 @@ export const Experienceslist: Experience[]=[
         skilltwo: 'Relation clientèle',
         id: 3
     },
+    {
+        company:"Wizbii",
+        place: 'Grenoble',
+        date: 'Juillet 2023 à Aout 2023',
+        title:'Stagiaire',
+        role: "developpement web et web mobile d'un portfolio",
+        skillone: "React, Typescript ",
+        skilltwo: 'Bibliotheque, Git',
+        id: 4
+    },
 
 ]

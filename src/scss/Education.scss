@@ -27,16 +27,19 @@
     list-style-type: none;
   }
 }
-@media (max-width: 480px) {
-  .formation{
-    &__button{
-      margin-left: 700Px;
-    margin-bottom: 303px;
-    font-size: 230px;
+@media (max-device-width: 480px) {
+  .formation {
+    
+    &__button {
+      margin-left: 252px;
+      margin-bottom: 0px;
+      margin-top: 100px;
+      
+      font-size: 230px;
+    }
+    &__year{
+      display: flex;
+      flex-direction: column;
     }
   }
-  
-    
-    
-  }
-
+}

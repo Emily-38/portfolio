@@ -1,6 +1,7 @@
 import { Experienceslist } from '../Listes/Experienceslist';
 import '../scss/Experience.scss';
 import { useInView } from 'react-intersection-observer';
+import Page from '../models/enumeration-page';
 
 import React from 'react';
 
@@ -8,14 +9,14 @@ function Experiences({ isInView }: {isInView: (a:string | boolean) => void}) {
   const { ref, inView } = useInView({
     threshold: 0.7,
   });
-  isInView(inView && 'Experience');
+  isInView(inView && Page.Experience);
   return (
     <>
-      <ul ref={ref} id="Experiences" className="experience">
+      <ul ref={ref} id={Page.Experience} className="experience">
         {Experienceslist.map((experience) => (
           <li key={experience.id} className={'experience__elem experience__elem--' + experience.id}>
             <div className="experience__elem__summary">
-              <h2 className="experience__title">{experience.company}</h2>
+              <h2 className={"experience__title experience__elem__title--"+ experience.id}>{experience.company}</h2>
             </div>
 
             <div className="experience__elem__content">

@@ -1,6 +1,29 @@
-.footer{
-    display:flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin: 10px;
+.footer {
+  background-color: white;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+  margin: 5px 0;
+  i {
+    padding: 5px 0;
+    font-weight: bold;
+  }
+  p {
+    margin: 5px;
+  }
+  hr {
+    width: 60px;
+    color: gray;
+    border: 1px solid gray;
+    border-radius: 5px;
+  }
+}
+@media (max-device-width: 480px) {
+    .footer{width: 1430px;
+    i{
+        font-size: 60px;
+    }p{
+        font-size: 60px;
+    }}
 }

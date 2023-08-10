@@ -3,6 +3,7 @@ import { formationslist } from '../Listes/Formationslist';
 import * as React from 'react';
 import FormationText from '../components/formation';
 import { useInView } from 'react-intersection-observer';
+import Page from '../models/enumeration-page';
 
 function Formations({ isInView }: {isInView: (a:string | boolean) => void}) {
   function indexOnClique(index: number) {
@@ -15,10 +16,10 @@ function Formations({ isInView }: {isInView: (a:string | boolean) => void}) {
 
   const [indexClicked, setIndexClicked] = React.useState<number>();
 
-  isInView(inView && 'Education');
+  isInView(inView && Page.Education);
 
   return (
-    <ul ref={ref} id="Education" className="formation">
+    <ul ref={ref} id={Page.Education} className="formation">
       {formationslist.map((formation, index) => (
         <li key={formation.id} className="formation__year">
           <button className="formation__button " type="button" onClick={() => indexOnClique(index)}>

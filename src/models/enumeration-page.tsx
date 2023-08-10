@@ -1,10 +1,10 @@
-enum Pages {
+enum Page {
     Presentation="Presentation",
     Menu="Menu",
     Home="Home",
     Footer="Footer",
-    Experiences="Experiences",
-    Education="Formations",
+    Experience="Experience",
+    Education="Formation",
     Contact="Contact"
 }
-export default Pages
+export default Page

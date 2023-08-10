@@ -1,16 +1,17 @@
 import '../scss/Presentation.scss';
 import { useInView } from 'react-intersection-observer';
-import * as React from 'react';
+import Page from '../models/enumeration-page';
 
 function Presentation({ isInView}: {isInView: (a:string | boolean) => void}) {
   const { ref, inView } = useInView({
     threshold: 0.7,
   });
+  
 
-  isInView(inView && 'Presentation');
+  isInView(inView && Page.Presentation);
 
   return (
-    <div ref={ref} id="Presentation" className="presentation">
+    <div ref={ref} id={Page.Presentation} className="presentation">
       <p>
         Passionée de jeux vidéo, je me suis intéressée aux différents
         <span className="presentation__text"> langages informatiques </span>. Cela m'a permis de découvrir le métier de

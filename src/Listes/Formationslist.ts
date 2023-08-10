@@ -7,7 +7,7 @@ export const formationslist : Formation []=[
         id: 1
     },
     {
-        name: 'HTML5 et CSS3,Algorithmes,Javascript ',
+        name: 'HTML5,CSS3,JS et Algorithmes',
         school: 'Openclassrooms',
         year: '2023',
         id: 2

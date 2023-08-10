@@ -17,7 +17,21 @@
   &__text {
     margin-top: 0;
     margin-bottom: 8px;
-    font-size: 32px;
+    font-size: 22px;
     font-weight: 500;
+  }
+}
+@media (max-device-width: 480px) {
+  .contact {
+    margin-left: 0px;
+    width: 1350px;
+    height: 700px;
+    &__name {
+      font-size: 100px;
+      padding-bottom: 50px;
+    }
+    &__text {
+      font-size: 70px;
+    }
   }
 }

@@ -1,11 +1,11 @@
 .experience {
-  margin: 64px;
+  margin: 34px;
   display: grid;
-  grid-template-columns: 424px 504px;
+  grid-template-columns: 500px 500px;
   grid-template-rows: 300px 300px;
   grid-template-areas:
     'a b'
-    'a c';
+    'c d';
 
   text-align: center;
   list-style-type: none;
@@ -14,23 +14,31 @@
   &__title {
     font-size: 40px;
   }
-  &__clique{
+  &__clique {
     display: block;
     width: 30px;
     bottom: 10px;
     text-align: center;
-    
   }
   &__elem {
     position: relative;
     &:hover {
+      .experience__title {
+        color: gray;
+      }
+      .experience__elem__title--2 {
+        visibility: hidden;
+      }
+      .experience__elem__title--4 {
+        visibility: hidden;
+      }
       .experience__elem__content {
         opacity: 1;
-        color: white;
+        color: rgb(255, 255, 255);
         transition: opacity 300ms ease-in-out 200ms;
       }
       .experience__elem__summary {
-        background-color: rgb(0 0 0/ 40%);
+        background-color: rgba(0, 0, 0, 0.721);
         filter: blur(3px);
       }
       .experience__elem--3 {
@@ -50,38 +58,39 @@
       transition: filter 300ms ease-in-out 0ms, background-color 300ms ease-in-out 0ms;
     }
 
-    &__text {
-      position: absolute;
-      right: 16px;
-      bottom: 22px;
-      margin: 0;
-    }
     &--1 {
       grid-area: a;
       border-radius: 5px;
       color: white;
       background-position: center;
       background-size: cover;
-      background-image: url("../image/Mcdonalds_France_2009_logo.svg.png");
+      background-image: url('../image/Mcdonalds_France_2009_logo.svg.png');
     }
     &--2 {
-      
       grid-area: b;
       color: rgba(255, 255, 255, 0);
       border-radius: 5px;
-      
+
       background-position: center;
-      
+
       background-size: cover;
-      background-image: url("../image/opinel_logobleu.jpeg");
+      background-image: url('../image/opinel_logobleu.jpeg');
     }
     &--3 {
       grid-area: c;
       border-radius: 5px;
-      background-image: url("../image/cropped-cropped-AU-JARDIN-LOGO.jpeg");
+      background-image: url('../image/cropped-cropped-AU-JARDIN-LOGO.jpeg');
       background-position: center;
       background-size: cover;
-      color:white;
+      color: white;
+    }
+    &--4 {
+      grid-area: d;
+      border-radius: 5px;
+      background-image: url('../image/351342958_648690386668195_8462871111604013744_n.jpeg');
+      background-position: center;
+      background-size: cover;
+      color: rgba(255, 255, 255, 0);
     }
     &__content {
       transition: opacity 300ms ease-in-out 0ms;
@@ -94,8 +103,40 @@
     }
   }
 }
-h3{
+h3 {
   display: flex;
   gap: 10px;
   align-items: flex-start;
+}
+@media (max-device-width: 480px) {
+  .experience {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 500px;
+
+    &__elem {
+      width: 1450px;
+      height: 1200px;
+      &__content {
+        text-align: center;
+        font-size: 60px;
+        padding: 70px;
+
+        svg {
+          visibility: hidden;
+        }
+        p {
+          font-size: 60px;
+        }
+        li {
+          list-style-type: none;
+        }
+      }
+    }
+    &__title {
+      font-size: 90px;
+    }
+  }
 }
