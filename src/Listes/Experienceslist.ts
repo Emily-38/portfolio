@@ -1,4 +1,5 @@
-export const Experienceslist=[
+import Experience from "../models/experience-interface"
+export const Experienceslist: Experience[]=[
     {
         company:"McDonald's",
         place: 'Echirolle centre',

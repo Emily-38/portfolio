@@ -1,7 +1,7 @@
 import '../scss/Education.scss';
 import { formationslist } from '../Listes/Formationslist';
 import * as React from 'react';
-import Formation from '../components/formation';
+import FormationText from '../components/formation';
 import { useInView } from 'react-intersection-observer';
 
 function Formations({ isInView }: {isInView: (a:string | boolean) => void}) {
@@ -24,7 +24,7 @@ function Formations({ isInView }: {isInView: (a:string | boolean) => void}) {
           <button className="formation__button " type="button" onClick={() => indexOnClique(index)}>
             {formation.year}
           </button>
-          <Formation show={indexClicked === index} formation={formation} />
+          <FormationText show={indexClicked === index} formation={formation} />
         </li>
       ))}
     </ul>

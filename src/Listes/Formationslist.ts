@@ -1,4 +1,5 @@
-export const formationslist=[
+import Formation from "../models/formation-interface"
+export const formationslist : Formation []=[
     {
         name: 'Bac pro vente ',
         school: 'CNEAC',
