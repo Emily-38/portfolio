@@ -2,21 +2,23 @@ import { Experienceslist } from '../Listes/Experienceslist';
 import '../scss/Experience.scss';
 import { useInView } from 'react-intersection-observer';
 
-function Experiences({ isInView }) {
+import React from 'react';
+
+function Experiences({ isInView }: {isInView: (a:string | boolean) => void}) {
   const { ref, inView } = useInView({
     threshold: 0.7,
   });
   isInView(inView && 'Experience');
   return (
     <>
-      <ul ref={ref} id="Experiences" class="experience">
+      <ul ref={ref} id="Experiences" className="experience">
         {Experienceslist.map((experience) => (
-          <li key={experience.id} class={'experience__elem experience__elem--' + experience.id}>
-            <div class="experience__elem__summary">
-              <h2 class="experience__title">{experience.company}</h2>
+          <li key={experience.id} className={'experience__elem experience__elem--' + experience.id}>
+            <div className="experience__elem__summary">
+              <h2 className="experience__title">{experience.company}</h2>
             </div>
 
-            <div class="experience__elem__content">
+            <div className="experience__elem__content">
               <h2>{experience.date}</h2>
               <h3>
                 <svg
@@ -29,10 +31,10 @@ function Experiences({ isInView }) {
                 >
                   <path
                     fill="currentColor"
-                    class="cls-1"
+                    className="cls-1"
                     d="M28 8h-7V6a2 2 0 0 0-2-2h-6a2 2 0 0 0-2 2v2H4a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h24a2 2 0 0 0 2-2V10a2 2 0 0 0-2-2ZM13 6h6v2h-6Zm15 4v9H4v-9ZM4 26v-5h24v5Z"
                   />
-                  <path fill="currentColor" class="cls-1" d="M15 18h2a1 1 0 0 0 0-2h-2a1 1 0 0 0 0 2Z" />
+                  <path fill="currentColor" className="cls-1" d="M15 18h2a1 1 0 0 0 0-2h-2a1 1 0 0 0 0 2Z" />
                 </svg>
                 {experience.title}
               </h3>

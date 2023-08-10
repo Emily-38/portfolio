@@ -4,8 +4,8 @@ import * as React from 'react';
 import Formation from '../components/formation';
 import { useInView } from 'react-intersection-observer';
 
-function Formations({ isInView }) {
-  function indexOnClique(index) {
+function Formations({ isInView }: {isInView: (a:string | boolean) => void}) {
+  function indexOnClique(index: number) {
     setIndexClicked(index);
   }
 
@@ -13,15 +13,15 @@ function Formations({ isInView }) {
     threshold: 0.7,
   });
 
-  const [indexClicked, setIndexClicked] = React.useState();
+  const [indexClicked, setIndexClicked] = React.useState<number>();
 
   isInView(inView && 'Education');
 
   return (
-    <ul ref={ref} id="Education" class="formation">
+    <ul ref={ref} id="Education" className="formation">
       {formationslist.map((formation, index) => (
-        <li key={formation.id} class="formation__year">
-          <button class="formation__button " type="button" onClick={() => indexOnClique(index)}>
+        <li key={formation.id} className="formation__year">
+          <button className="formation__button " type="button" onClick={() => indexOnClique(index)}>
             {formation.year}
           </button>
           <Formation show={indexClicked === index} formation={formation} />

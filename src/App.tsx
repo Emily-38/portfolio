@@ -7,20 +7,20 @@ import Experiences from './pages/Experiences';
 import Contact from './pages/Contact';
 import { useState } from 'react';
 import Footer from './pages/footer';
+import React from 'react';
 
 function App() {
-  const [View, setView] = useState('');
+  const [View, setView] = useState<string | boolean>('');
 
-  function selectCurrentView(currentView) {
+  function selectCurrentView(currentView: boolean | string) {
     if (currentView !== false) {
       setView(currentView);
     }
   }
 
   return (
-    <>
-      <div class="app">
-        <Menu menuView={selectCurrentView} View={View} />
+      <div className="app">
+        <Menu View={View} />
         <Home isInView={selectCurrentView} />
         <Presentation isInView={selectCurrentView} />
         <Education isInView={selectCurrentView} />
@@ -28,7 +28,6 @@ function App() {
         <Contact isInView={selectCurrentView} />
         <Footer />
       </div>
-    </>
   );
 }
 
