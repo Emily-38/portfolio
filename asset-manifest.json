@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/react-gh-pages/static/css/main.7375895d.css",
+    "main.js": "/react-gh-pages/static/js/main.56ed8e18.js",
+    "static/js/787.b554861c.chunk.js": "/react-gh-pages/static/js/787.b554861c.chunk.js",
+    "static/media/Mcdonalds_France_2009_logo.svg.png": "/react-gh-pages/static/media/Mcdonalds_France_2009_logo.svg.a2f164328426604de83d.png",
+    "static/media/cropped-cropped-AU-JARDIN-LOGO.jpeg": "/react-gh-pages/static/media/cropped-cropped-AU-JARDIN-LOGO.21b406d2c0fd95447cf2.jpeg",
+    "static/media/351342958_648690386668195__n.jpeg": "/react-gh-pages/static/media/351342958_648690386668195_8462871111604013744_n.5c251409937ca2c27f7f.jpeg",
+    "static/media/opinel_logobleu.jpeg": "/react-gh-pages/static/media/opinel_logobleu.e6f6f1daa27a18c9bce4.jpeg",
+    "index.html": "/react-gh-pages/index.html",
+    "main.7375895d.css.map": "/react-gh-pages/static/css/main.7375895d.css.map",
+    "main.56ed8e18.js.map": "/react-gh-pages/static/js/main.56ed8e18.js.map",
+    "787.b554861c.chunk.js.map": "/react-gh-pages/static/js/787.b554861c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7375895d.css",
+    "static/js/main.56ed8e18.js"
+  ]
+}
