@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.21d5fbec.css",
-    "main.js": "/portfolio/static/js/main.d14b33f7.js",
-    "static/js/787.b554861c.chunk.js": "/portfolio/static/js/787.b554861c.chunk.js",
-    "static/media/Mcdonalds_France_2009_logo.svg.png": "/portfolio/static/media/Mcdonalds_France_2009_logo.svg.a2f164328426604de83d.png",
-    "static/media/cropped-cropped-AU-JARDIN-LOGO.jpeg": "/portfolio/static/media/cropped-cropped-AU-JARDIN-LOGO.21b406d2c0fd95447cf2.jpeg",
-    "static/media/351342958_648690386668195__n.jpeg": "/portfolio/static/media/351342958_648690386668195_8462871111604013744_n.5c251409937ca2c27f7f.jpeg",
-    "static/media/opinel_logobleu.jpeg": "/portfolio/static/media/opinel_logobleu.e6f6f1daa27a18c9bce4.jpeg",
-    "index.html": "/portfolio/index.html",
-    "main.21d5fbec.css.map": "/portfolio/static/css/main.21d5fbec.css.map",
-    "main.d14b33f7.js.map": "/portfolio/static/js/main.d14b33f7.js.map",
-    "787.b554861c.chunk.js.map": "/portfolio/static/js/787.b554861c.chunk.js.map"
+    "main.css": "/static/css/main.a2c99838.css",
+    "main.js": "/static/js/main.64a66260.js",
+    "static/js/787.b554861c.chunk.js": "/static/js/787.b554861c.chunk.js",
+    "static/media/Mcdonalds_France_2009_logo.svg.png": "/static/media/Mcdonalds_France_2009_logo.svg.a2f164328426604de83d.png",
+    "static/media/cropped-cropped-AU-JARDIN-LOGO.jpeg": "/static/media/cropped-cropped-AU-JARDIN-LOGO.21b406d2c0fd95447cf2.jpeg",
+    "static/media/351342958_648690386668195__n.jpeg": "/static/media/351342958_648690386668195_8462871111604013744_n.5c251409937ca2c27f7f.jpeg",
+    "static/media/opinel_logobleu.jpeg": "/static/media/opinel_logobleu.e6f6f1daa27a18c9bce4.jpeg",
+    "index.html": "/index.html",
+    "main.a2c99838.css.map": "/static/css/main.a2c99838.css.map",
+    "main.64a66260.js.map": "/static/js/main.64a66260.js.map",
+    "787.b554861c.chunk.js.map": "/static/js/787.b554861c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.21d5fbec.css",
-    "static/js/main.d14b33f7.js"
+    "static/css/main.a2c99838.css",
+    "static/js/main.64a66260.js"
   ]
 }
