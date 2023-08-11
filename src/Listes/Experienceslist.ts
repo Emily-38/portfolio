@@ -5,7 +5,7 @@ export const Experienceslist: Experience[]=[
         place: 'Echirolle centre',
         date: 'Aout 2020 à Septembre 2020',
         title:'Equipière',
-        role: 'Preparation des aliments/ sandwichs pour les commandes',
+        role: 'Préparation des aliments/ sandwichs pour les commandes',
         skillone: 'Rapidité',
         skilltwo: 'Gestion du stress',
         id: 1
@@ -35,7 +35,7 @@ export const Experienceslist: Experience[]=[
         place: 'Grenoble',
         date: 'Juillet 2023 à Aout 2023',
         title:'Stagiaire',
-        role: "developpement web et web mobile d'un portfolio",
+        role: "Développement web et web mobile d'un portfolio",
         skillone: "React, Typescript ",
         skilltwo: 'Bibliotheque, Git',
         id: 4

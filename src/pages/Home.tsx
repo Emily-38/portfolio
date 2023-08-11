@@ -22,8 +22,10 @@ function Home({ isInView }: {isInView: (a:string | boolean) => void}) {
         strings: ['Emily <span class="name__lastname"> Martorana </span>'],
       }} />      
       </h1>
-      <p className="name__text">— Developpeuse web en apprentissage</p>
-      
+      <div className='block'>
+      <hr className='block__trait' />
+      <p className="block__text"> Développeuse web en apprentissage</p>
+      </div>
     </div>
   );
 }

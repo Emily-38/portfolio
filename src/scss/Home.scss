@@ -8,6 +8,12 @@
     margin-bottom: 32px;
     text-transform: uppercase;
   }
+}
+.block {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  text-align: center;
   &__text {
     width: 754px;
     height: 44px;
@@ -17,6 +23,17 @@
     margin-left: 64px;
     margin-top: 0;
   }
+  &__trait {
+    visibility: hidden;
+    width: 30px;
+    height: 10px;
+    background-color: black;
+    width: 30px;
+    color: rgb(0, 0, 0);
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin:0
+  }
 }
 @media (max-device-width: 480px) {
   .name {
@@ -25,16 +42,26 @@
     font-weight: 800;
     font-size: 150px;
     margin-left: 447px;
-    margin-bottom: 0;
+    margin-bottom: 50px;
     &__lastname {
       margin-left: -258px;
     }
-    &__text {
+    
+  }
+  .block {
+    display: block;
+    &__trait{
+    visibility: visible;
+    width: 500px;
+    margin-bottom: 120px;
+    margin-left: 400px;
+    color: black;
+    border: 2px solid;}&__text {
       text-align: center;
       width: 600px;
       font-size: 80px;
       margin-left: 363px;
-      margin-bottom: 415px;
+      margin-bottom: 550px;
     }
   }
 }

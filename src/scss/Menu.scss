@@ -65,6 +65,12 @@
     position: fixed;
     display: flex;
     flex-direction: row;
+    &__scroll{
+      visibility: hidden;
+    }
+    &__arrow{
+      visibility: hidden;
+    }
 
     &__list {
       position: fixed;
@@ -82,7 +88,7 @@
       &--isActive {
         
         font-size: 120px;
-        visibility: visible;
+        visibility: hidden;
       }
     }
   }
