@@ -15,7 +15,7 @@ function Footer(){
 </div>
 <div className='footer__elementtwo'>
 <p className='footer__elementtwo__contenu'>Contenu complémentaire:</p>
-        <p className='footer__elementtwo__cv'> <a href=""> Télécharger le CV </a> </p>
+        <p className='footer__elementtwo__cv'> <a href="https://1drv.ms/b/s!AmBpboRwQlMQqBl-31KcMW_OA-sa?e=ZGzG9y"> Télécharger le CV </a> </p>
     </div>
     </div>
 </>)}
