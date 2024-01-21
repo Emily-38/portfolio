@@ -13,10 +13,7 @@ function Footer(){
 <p className='footer__elementone__date'>Aout 2023</p>
 <p className='footer__elementone__name'> Crée par Martorana Emily </p>
 </div>
-<div className='footer__elementtwo'>
-<p className='footer__elementtwo__contenu'>Contenu complémentaire:</p>
-        <p className='footer__elementtwo__cv'> <a href="https://1drv.ms/b/s!AmBpboRwQlMQqBl-31KcMW_OA-sa?e=ZGzG9y"> Télécharger le CV </a> </p>
-    </div>
+
     </div>
 </>)}
 export default Footer
